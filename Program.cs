@@ -69,14 +69,26 @@ app.MapPut("/todoitems/{id}", async (int id, Todo inputTodo, TodoDb db) =>
 
 app.MapDelete("/todoitems/{id}", async (int id, TodoDb db) =>
 {
-    if (await db.Todos.FindAsync(id) is Todo todo)
-    {
-        db.Todos.Remove(todo);
-        await db.SaveChangesAsync();
-        return Results.NoContent();
-    }
+  if (await db.Todos.FindAsync(id) is Todo todo)
+  {
+    db.Todos.Remove(todo);
+    await db.SaveChangesAsync();
+    return Results.NoContent();
+  }
 
-    return Results.NotFound();
+  return Results.NotFound();
+});
+
+app.MapGet("/randomapi", (TodoDb db) =>
+{
+  string value = Todo.Sample();
+  string[] item = db.Samples;
+  // list is different from array as items can be pushed to it.
+  var sample = new List<string>();
+  sample.Add(item[0]);
+  sample.Add(value);
+  sample.Add(item[1]);
+  return sample;
 });
 
 app.Run();
