@@ -39,3 +39,17 @@
 /home/thezodiac/Music/CSharpStuff/minimal_web_api/TodoApi/obj/Debug/net8.0/ref/TodoApi.dll
 /home/thezodiac/Music/CSharpStuff/minimal_web_api/TodoApi/bin/Debug/net8.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 /home/thezodiac/Music/CSharpStuff/minimal_web_api/TodoApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/thezodiac/Music/CSharpStuff/minimal_web_api/TodoApi/bin/Debug/net8.0/Namotion.Reflection.dll
+/home/thezodiac/Music/CSharpStuff/minimal_web_api/TodoApi/bin/Debug/net8.0/Newtonsoft.Json.dll
+/home/thezodiac/Music/CSharpStuff/minimal_web_api/TodoApi/bin/Debug/net8.0/NJsonSchema.dll
+/home/thezodiac/Music/CSharpStuff/minimal_web_api/TodoApi/bin/Debug/net8.0/NJsonSchema.Annotations.dll
+/home/thezodiac/Music/CSharpStuff/minimal_web_api/TodoApi/bin/Debug/net8.0/NJsonSchema.NewtonsoftJson.dll
+/home/thezodiac/Music/CSharpStuff/minimal_web_api/TodoApi/bin/Debug/net8.0/NJsonSchema.Yaml.dll
+/home/thezodiac/Music/CSharpStuff/minimal_web_api/TodoApi/bin/Debug/net8.0/NSwag.Annotations.dll
+/home/thezodiac/Music/CSharpStuff/minimal_web_api/TodoApi/bin/Debug/net8.0/NSwag.AspNetCore.dll
+/home/thezodiac/Music/CSharpStuff/minimal_web_api/TodoApi/bin/Debug/net8.0/NSwag.Core.dll
+/home/thezodiac/Music/CSharpStuff/minimal_web_api/TodoApi/bin/Debug/net8.0/NSwag.Core.Yaml.dll
+/home/thezodiac/Music/CSharpStuff/minimal_web_api/TodoApi/bin/Debug/net8.0/NSwag.Generation.dll
+/home/thezodiac/Music/CSharpStuff/minimal_web_api/TodoApi/bin/Debug/net8.0/NSwag.Generation.AspNetCore.dll
+/home/thezodiac/Music/CSharpStuff/minimal_web_api/TodoApi/bin/Debug/net8.0/YamlDotNet.dll
+/home/thezodiac/Music/CSharpStuff/minimal_web_api/TodoApi/obj/Debug/net8.0/TodoApi.MvcApplicationPartsAssemblyInfo.cs
