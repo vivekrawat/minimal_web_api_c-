@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "2I2VkmoF39jMMiL1LwjBqELwX7H6649CUjikifHjnYCGk5FhE0vX3dGWiGWnadp0I4Gw/vxnWR7keVIAQpoWYQ==",
+  "success": true,
+  "projectFilePath": "/home/thezodiac/Music/CSharpStuff/minimal_web_api/TodoApi/TodoApi.csproj",
+  "expectedPackageFiles": [
+    "/home/thezodiac/.nuget/packages/microsoft.aspnetcore.diagnostics.entityframeworkcore/8.0.5/microsoft.aspnetcore.diagnostics.entityframeworkcore.8.0.5.nupkg.sha512",
+    "/home/thezodiac/.nuget/packages/microsoft.entityframeworkcore/9.0.6/microsoft.entityframeworkcore.9.0.6.nupkg.sha512",
+    "/home/thezodiac/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.6/microsoft.entityframeworkcore.abstractions.9.0.6.nupkg.sha512",
+    "/home/thezodiac/.nuget/packages/microsoft.entityframeworkcore.analyzers/9.0.6/microsoft.entityframeworkcore.analyzers.9.0.6.nupkg.sha512",
+    "/home/thezodiac/.nuget/packages/microsoft.entityframeworkcore.inmemory/9.0.6/microsoft.entityframeworkcore.inmemory.9.0.6.nupkg.sha512",
+    "/home/thezodiac/.nuget/packages/microsoft.entityframeworkcore.relational/8.0.5/microsoft.entityframeworkcore.relational.8.0.5.nupkg.sha512",
+    "/home/thezodiac/.nuget/packages/microsoft.extensions.caching.abstractions/9.0.6/microsoft.extensions.caching.abstractions.9.0.6.nupkg.sha512",
+    "/home/thezodiac/.nuget/packages/microsoft.extensions.caching.memory/9.0.6/microsoft.extensions.caching.memory.9.0.6.nupkg.sha512",
+    "/home/thezodiac/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/home/thezodiac/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.6/microsoft.extensions.dependencyinjection.9.0.6.nupkg.sha512",
+    "/home/thezodiac/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.6/microsoft.extensions.dependencyinjection.abstractions.9.0.6.nupkg.sha512",
+    "/home/thezodiac/.nuget/packages/microsoft.extensions.logging/9.0.6/microsoft.extensions.logging.9.0.6.nupkg.sha512",
+    "/home/thezodiac/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.6/microsoft.extensions.logging.abstractions.9.0.6.nupkg.sha512",
+    "/home/thezodiac/.nuget/packages/microsoft.extensions.options/9.0.6/microsoft.extensions.options.9.0.6.nupkg.sha512",
+    "/home/thezodiac/.nuget/packages/microsoft.extensions.primitives/9.0.6/microsoft.extensions.primitives.9.0.6.nupkg.sha512",
+    "/home/thezodiac/.nuget/packages/system.diagnostics.diagnosticsource/9.0.6/system.diagnostics.diagnosticsource.9.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}
