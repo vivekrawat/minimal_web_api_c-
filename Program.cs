@@ -88,7 +88,16 @@ app.MapGet("/randomapi", (TodoDb db) =>
   sample.Add(item[0]);
   sample.Add(value);
   sample.Add(item[1]);
-  return sample;
+  return Results.Ok(sample);
 });
 
 app.Run();
+
+// ASP.NET Core Minimal APIs provide a static class called Results that helps you easily build HTTP responses.
+
+// Results.Ok(...) → returns 200 OK
+
+// Results.NotFound() → returns 404 Not Found
+
+// Results.Created(uri, value) → returns 201 Created, sets the Location header, and serializes value to JSON.
+
