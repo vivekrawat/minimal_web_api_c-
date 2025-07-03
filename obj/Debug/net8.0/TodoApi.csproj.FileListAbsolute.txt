@@ -53,3 +53,4 @@
 /home/thezodiac/Music/CSharpStuff/minimal_web_api/TodoApi/bin/Debug/net8.0/NSwag.Generation.AspNetCore.dll
 /home/thezodiac/Music/CSharpStuff/minimal_web_api/TodoApi/bin/Debug/net8.0/YamlDotNet.dll
 /home/thezodiac/Music/CSharpStuff/minimal_web_api/TodoApi/obj/Debug/net8.0/TodoApi.MvcApplicationPartsAssemblyInfo.cs
+/home/thezodiac/Music/CSharpStuff/minimal_web_api/TodoApi/obj/Debug/net8.0/TodoApi.sourcelink.json

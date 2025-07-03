@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<TodoDb>(opt => opt.UseInMemoryDatabase("TodoList"));
+builder.Services.AddDbContext<DbStuff.Movie>(opt => opt.UseInMemoryDatabase("MovieList"));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddOpenApiDocument(config =>
@@ -89,6 +90,24 @@ app.MapGet("/randomapi", (TodoDb db) =>
   sample.Add(value);
   sample.Add(item[1]);
   return Results.Ok(sample);
+});
+
+app.MapPost("/movie", async (Models.Movie movie, DbStuff.Movie db) =>
+{
+  try
+  {
+    db.Movies.Add(movie);
+    await db.SaveChangesAsync();
+
+    return Results.Created($"movies/{movie.Id}", movie);
+  }
+  catch (Exception ex)
+  {
+    // Log the error (important for debugging)
+    Console.WriteLine($"Error adding movie: {ex.Message}");
+    // Return 500 Internal Server Error for unexpected failures
+    return Results.StatusCode(500);
+  }
 });
 
 app.Run();
